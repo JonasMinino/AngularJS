@@ -3,7 +3,7 @@
 
   angular.module("data")
     .service("MenuDataService", MenuDataService)
-    .constant("ApiBasePath", "https:/cors-anywhere.herokuapp.com${https://davids-restaurant.herokuapp.com}");
+    .constant("ApiBasePath", "https://davids-restaurant.herokuapp.com");
 
   MenuDataService.$inject = ["$http", "ApiBasePath"];
   function MenuDataService($http, ApiBasePath) {
