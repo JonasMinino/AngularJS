@@ -13,7 +13,7 @@
       //https://davids-restaurant.herokuapp.com/categories.json
       return $http({
         method: "GET",
-        url: ApiBasePath + "/categories.json"
+        url: (ApiBasePath + "/categories.json")
       })
         .then(function(response){
           return response.data;
